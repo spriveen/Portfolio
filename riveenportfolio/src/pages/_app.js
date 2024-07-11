@@ -1,5 +1,5 @@
 
-import Navbar from "@/components/NavBar";
+import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
 import {Montserrat} from "next/font/google";
 
