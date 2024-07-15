@@ -8,7 +8,7 @@ const Details =({position, company, companyLink,time,address,work})=>{
         <span className='capitalize font-medium text-dark/75'>
             {time} |{address}
         </span>
-        <p>
+        <p className='font-medium w-full'>
             {work}
         </p>
 
