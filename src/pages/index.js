@@ -9,7 +9,7 @@ import lightBulb from "../../public/images/svgs/lightbulb.svg";
 
 export default function Home() {
   return (
-    <main className="flex items-center text-dark w-full min-h-screen">
+    <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
       <Layout className="pt-0">
         <div className="flex item-center justify-between w-full">
           <div className="w-1/2">
@@ -44,7 +44,7 @@ export default function Home() {
               <Link
                 href="mailto:rpeanuka@gmail.com"
                 target={"_blank"}
-                className="ml-4 text-lg font-medium capitalize text- dark underline"
+                className="ml-4 text-lg font-medium capitalize text- dark underline dark:text-light"
               >
                 Contact
             
