@@ -26,10 +26,12 @@ const FeaturedProject = ({ type, title, img, link, github, summary }) => {
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg"
       >
         <FramerImage src={img} alt={title} className="w-full h-auto" 
-        
-        
         whileHover={{scale:1.05}}
         transtition={{duration:0.2}}
+       priority
+               sizes="(max-width:768px) 100vw
+               (ma px-width:1200px) 50vw
+               50"
         />
       </Link>
 
