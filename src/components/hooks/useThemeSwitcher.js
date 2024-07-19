@@ -23,7 +23,7 @@ const useThemeSwitcher = () => {
             }
         };
 
-        handleChange(); // Initial check
+        handleChange(); 
         mediaQuery.addEventListener("change", handleChange);
 
         return () => mediaQuery.removeEventListener("change", handleChange);
