@@ -70,7 +70,7 @@ const Project = ({ title, type, img, link, github }) => {
     ">
 
 <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
-     rounded-br-3xl
+     rounded-br-3xl dark:bg-light
      '/> 
       <Link
         href={link}
@@ -84,7 +84,7 @@ const Project = ({ title, type, img, link, github }) => {
       </Link>
 
       <div className="w-full flex flex-col items-center justify-between mt-4">
-        <span className="text-primary font-medium text-xl">{type}</span>
+        <span className="text-primary font-medium text-xl dark:text-primaryDark">{type}</span>
         <Link
           href={link}
           target="_blank"
