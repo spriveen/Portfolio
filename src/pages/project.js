@@ -51,7 +51,9 @@ const FeaturedProject = ({ type, title, img, link, github, summary }) => {
           <Link
             href={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold"
+            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold
+            dark:bg-light dark:text-dark
+            "
           >
             Visit project
           </Link>
@@ -64,7 +66,7 @@ const FeaturedProject = ({ type, title, img, link, github, summary }) => {
 const Project = ({ title, type, img, link, github }) => {
   return (
     <article className="w-full flex flex-col items-center justify-center rounded-2xl
-    border border-solid border-dark bg-light p-6 relative dark:bg-dark
+    border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-x-light
     ">
 
 <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
