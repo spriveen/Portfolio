@@ -14,7 +14,7 @@ const FeaturedProject = ({ type, title, img, link, github, summary }) => {
   return (
     <article
       className="w-full flex items-center justify-between relative rounded-br-2xl
-    rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark
+    rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light
      "
     >
      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark
