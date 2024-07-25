@@ -53,6 +53,7 @@ const NavBar = () => {
         <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
         <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
       </button>
+      
       <div className="w-full flex justify-between items-center lg:hidden">
       <nav>
         <CustomLink href = "/" title="Home" className='mr-4'/>
@@ -101,12 +102,12 @@ const NavBar = () => {
       
       {
         isOpen?
-
         <motion.div 
         initial={{scale:0, opacity:0, x:"-50%", y: "-50%"}}
         animate={{scale:1, opacity:1}}
         className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-      bg-dark dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
+      bg-dark dark:bg-light/75 rounded-lg backdrop-blur-md py-32
+      ">
       <nav className="flex items-center flex-col justify-center">
         <CustomMobileLink href = "/" title="Home" className='' toggle={handleClick}/>
         <CustomMobileLink href = "/about" title="About" className='' toggle={handleClick}/>
