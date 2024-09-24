@@ -54,7 +54,7 @@ const About = () => {
                 I believe development is more than just writing code it&apos;s about solving problems and creating seamless, intuitive experiences for users.
        Whether it&apos;s a website, mobile app, or another digital product, 
        I bring a commitment to technical excellence and user-focused development to every project. 
-       I look forward to bringing my skills and passion to your next project."
+       I look forward to bringing my skills and passion to your next project.
               </p>
               <p className="font-medium">
                  I believe that design is about more than just making things
