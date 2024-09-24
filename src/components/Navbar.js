@@ -67,17 +67,17 @@ const NavBar = () => {
         whileTap={{scale:0.9}}
         className="w-6 mx-3"
         ><TwitterIcon/></motion.a>
-        <motion.a href="https://www.google.com/" target={"_blank"}
+        <motion.a href="https://github.com/spriveen" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className="w-6 mx-3"
         ><GithubIcon/></motion.a>
-        <motion.a href="https://www.google.com/" target={"_blank"}
+        <motion.a href="https://www.linkedin.com/in/riveen/" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className="w-6 mx-3"
         ><LinkedInIcon/></motion.a>
-        <motion.a href="https://www.google.com/" target={"_blank"}
+        <motion.a href="" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className="w-6 mx-3  bg-light rounded-full"
