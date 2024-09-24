@@ -49,16 +49,16 @@ const About = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                - Hi, Im Riveen Peanuka,  full-stack developer with 4 years of experience, passionate about building beautiful, functional, and user-centered digital solutions. I believe development is more than just writing code it's about solving problems and creating seamless, intuitive experiences for users.
+                Hi, I m Riveen Peanuka,  full-stack developer with 4 years of experience, passionate about building beautiful, functional, and user-centered digital solutions. I believe development is more than just writing code it's about solving problems and creating seamless, intuitive experiences for users.
        Whether it's a website, mobile app, or another digital product, I bring a commitment to technical excellence and user-focused development to every project. I look forward to bringing my skills and passion to your next project."
               </p>
               <p className="font-medium">
-                - I believe that design is about more than just making things
+                 I believe that design is about more than just making things
                 look pretty it is about solving problems and creating
                 intuitive, enjoyable experiences for users.
               </p>
               <p className="my-4 font-medium">
-                - Whether I am working on a website, mobile app, or other
+                Whether I am working on a website, mobile app, or other
                 digital product, I bring my commitment to design excellence and
                 user-centered thinking to every project I work on. I look
                 forward to the opportunity to bring my skills and passion to
