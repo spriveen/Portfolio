@@ -51,56 +51,56 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
-            position="Software Engineer" company="Google"
+            position="Software Engineer" company="Donext"
             companyLink="http://www.google.com"
-            time="2022-Present" address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."/>
+            time="2024-Present" address="Mountain View, CA"
+            work="I built an LMS project that simplifies learning management by offering user-friendly 
+            features like course tracking, assessments, and progress reports. It's designed to enhance the
+             learning experience for students and streamline administration for educators."/>
 
             <Details
-            position="Software Engineer" company="Google"
+            position="Software Engineer" company="Donext"
             companyLink="http://www.google.com"
-            time="2022-Present" address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."/>
+            time="2024-Present" address="Mountain View, CA"
+            work="LK Model Zone is a uniquely designed website showcasing models with a modern and sleek interface.
+             It highlights portfolios, photoshoots and profiles,offering an engaging platform for models and agencies 
+             to connect seamlessly."/>
 
 
             <Details
             position="Software Engineer" company="Donext"
             companyLink="http://www.google.com"
-            time="2022-Present" address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."/>
+            time="2024-Present" address="Mountain View, CA"
+            work="Potimate is a driving tracking system that offers real-time vehicle monitoring, route optimization 
+            and driver performance insights. It's designed to enhance safety, improve efficiency, and provide
+            detailed reports for fleet management."/>
 
 
             <Details
             position="Software Engineer" company="Donext"
             companyLink="http://www.google.com"
-            time="2022-Present" address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."/>
+            time="2024-Present" address="Mountain View, CA"
+            work="Sonnenheu is a farm website that connects consumers with fresh, organic produce. It offers an easy
+            to-navigate platform for purchasing farm goods, promoting sustainable farming, and supporting
+            local agriculture through direct sales."/>
 
 
             <Details
-            position="Software Engineer" company="Google"
+            position="Software Engineer" company="Donext"
             companyLink="http://www.google.com"
-            time="2022-Present" address="Mountain View, CA"
+            time="2024-Present" address="Mountain View, CA"
             work="Worked on a team responsible for developing new features for Google's 
             search engine, including improving the accuracy and relevance of search results and 
             developing new tools for data analysis and visualization."/>
 
             
-            <Details
+            {/* <Details
             position="Software Engineer" company="Google"
             companyLink="http://www.google.com"
             time="2022-Present" address="Mountain View, CA"
             work="Worked on a team responsible for developing new features for Google's 
             search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."/>
+            developing new tools for data analysis and visualization."/> */}
         </ul>
       </div>
     </div>
