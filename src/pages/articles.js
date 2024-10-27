@@ -126,17 +126,16 @@ const articles = () => {
             '/>
                 <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
                     <FeaturedArticle
-title="Build A Custom Pagination Component In Reactjs From Scratch"
-summary="Learn how to build a custom pagination component in ReactJS from scratch. 
+title="Build A Custom Pagination Component In Next JS From Scratch"
+summary="learn how to create a custom pagination component in Next.js. We’ll focus on utilizing Next.js's file-based routing and API routes to manage data fetching and state management. 
 Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
 time="9 min read"
 link="/"
 img={articles1}
                      />
                      <FeaturedArticle
-title="Build A Custom Pagination Component In Reactjs From Scratch"
-summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+title="Build A Custom Pagination Component In React JS From Scratch"
+summary="Learn how to create a custom pagination component in ReactJS. This guide will emphasize managing state and props to control the pagination logic effectively"
 time="9 min read"
 link="/"
 img={articles2}
@@ -145,24 +144,36 @@ img={articles2}
                 <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
             <ul>
                <Article
-               title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-               date="March 22 2023"
+               title="The Story of Node JS"
+               date="August 08 2024"
                link="/"
                img={articles3}
                />
                <Article
-               title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-               date="March 22 2023"
+               title="Master the Basics: A Guide to Node.js Fundamentals"
+               date="August 10 2024"
                link="/"
                img={articles4}
                />
                <Article
-               title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-               date="March 22 2023"
+               title="Unlocking the Power of Next.js for Modern Web Development"
+               date="August 06 2024"
                link="/"
                img={articles5}
                />
                <Article
+               title="Optimizing Java Performance - A Detailed Exploration of Stack, Heap, Garbage Collection and Memory Addresses"
+               date="July 24 2023"
+               link="/"
+               img={articles3}
+               />
+               <Article
+               title="Java Essentials -: Building a Strong Foundation in Programming"
+               date=" July 19 2024"
+               link="/"
+               img={articles3}
+               />
+               {/* <Article
                title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
                date="March 22 2023"
                link="/"
@@ -173,19 +184,7 @@ img={articles2}
                date="March 22 2023"
                link="/"
                img={articles3}
-               />
-               <Article
-               title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-               date="March 22 2023"
-               link="/"
-               img={articles3}
-               />
-               <Article
-               title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-               date="March 22 2023"
-               link="/"
-               img={articles3}
-               />
+               /> */}
             </ul>
         
         </Layout>
