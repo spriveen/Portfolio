@@ -6,6 +6,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project2 from '../../public/images/projects/1.jpg'
+import project3 from '../../public/images/projects/3.jpg'
+import project4 from '../../public/images/projects/2.jpg'
+import project5 from '../../public/images/projects/4.jpg'
+import project6 from '../../public/images/projects/6.jpg'
+import project7 from '../../public/images/projects/5.jpg'
+import project8 from '../../public/images/projects/2.jpg'
+import project9 from '../../public/images/projects/7.jpg'
+
+
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
 
@@ -84,18 +94,18 @@ const project = () => {
       
       <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
         <Layout className='pt-16'>
-          <AnimatedText text="Imagination Trumps Knowledge!"
+          <AnimatedText text="Creativity Outshines Knowledge!"
             className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
 
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
             <div className='col-span-12'>
               <FeaturedProject
 
-                title="Crypto Screener Application"
+                title="Gym Nest Application"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
+                summary="Gym Nest is a dynamic, user-friendly website for fitness enthusiasts
+                 designed using HTML, CSS, and JavaScript. It offers an engaging interface, helping users explore workouts,
+                 fitness plans and gym facilities seamlessly"
                 link="/"
                 github="/"
                 type="Featured Project"
@@ -104,11 +114,9 @@ const project = () => {
             <div className='col-span-6 sm:col-span-12'>
               <Project
 
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+                title="Cab Hub"
+                img={project3}
+                summary="Cab Hub is a sleek, responsive cab service website built with Next.js, Tailwind CSS, and TypeScript. It offers a smooth, user-friendly interface for quick bookings and reliable transport options ensuring seamless navigation and efficiency"
                 link="/"
                 github="/"
                 type="Featured Project"
@@ -117,11 +125,10 @@ local currency."
             <div className='col-span-6 sm:col-span-12'>
               <Project
 
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+                title="Burger Shop"
+                img={project2}
+                summary="Burger Shop is a modern responsive website crafted with Next.js, Tailwind CSS, and TypeScript. It features an intuitive interface for browsing the menu
+                 placing orders and discovering delicious options delivering a seamless user experience."
                 link="/"
                 github="/"
                 type="Featured Project"
@@ -131,8 +138,21 @@ local currency."
             <div className='col-span-6 sm:col-span-12'>
               <FeaturedProject
 
-                title="Crypto Screener Application"
-                img={project1}
+                title="Fashion Web Site"
+                img={project8}
+                summary="I created a vibrant fashion website using HTML, CSS, and JavaScript, showcasing trendy outfits
+                 and accessories. The site features an interactive gallery, user-friendly navigation and responsive 
+                design for an enhanced shopping experience"
+                link="/"
+                github="/"
+                type="Featured Project"
+              />
+            </div>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project
+
+                title="LMS "
+                img={project5}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
@@ -144,24 +164,39 @@ local currency."
             <div className='col-span-6 sm:col-span-12'>
               <Project
 
-                title="Crypto Screener Application"
-                img={project1}
+                title="Online E-Channeling System"
+                img={project6}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+         local currency."
                 link="/"
                 github="/"
                 type="Featured Project"
               />
             </div>
+
             <div className='col-span-6 sm:col-span-12'>
               <Project
 
-                title="Crypto Screener Application"
-                img={project1}
+                title="Coffee Shop"
+                img={project7}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+         local currency."
+                link="/"
+                github="/"
+                type="Featured Project"
+              />
+            </div>
+            
+            <div className='col-span-6 sm:col-span-12'>
+              <Project
+
+                title="Digital News"
+                img={project9}
+                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+         local currency."
                 link="/"
                 github="/"
                 type="Featured Project"
