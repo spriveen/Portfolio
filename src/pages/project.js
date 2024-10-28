@@ -107,7 +107,7 @@ const project = () => {
                  designed using HTML, CSS, and JavaScript. It offers an engaging interface, helping users explore workouts,
                  fitness plans and gym facilities seamlessly"
                 link="/"
-                github="/"
+                github="https://github.com/spriveen/GYM"
                 type="Featured Project"
               />
             </div>
@@ -118,7 +118,7 @@ const project = () => {
                 img={project3}
                 summary="Cab Hub is a sleek, responsive cab service website built with Next.js, Tailwind CSS, and TypeScript. It offers a smooth, user-friendly interface for quick bookings and reliable transport options ensuring seamless navigation and efficiency"
                 link="/"
-                github="/"
+                github="https://github.com/spriveen/car-booking"
                 type="Featured Project"
               />
             </div>
@@ -130,7 +130,7 @@ const project = () => {
                 summary="Burger Shop is a modern responsive website crafted with Next.js, Tailwind CSS, and TypeScript. It features an intuitive interface for browsing the menu
                  placing orders and discovering delicious options delivering a seamless user experience."
                 link="/"
-                github="/"
+                github="https://github.com/spriveen/Burger-Landing"
                 type="Featured Project"
               />
             </div>
@@ -144,20 +144,20 @@ const project = () => {
                  and accessories. The site features an interactive gallery, user-friendly navigation and responsive 
                 design for an enhanced shopping experience"
                 link="/"
-                github="/"
+                github="https://github.com/spriveen/Fashion-Web-Site"
                 type="Featured Project"
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
 
-                title="LMS "
+                title="Online Courses Website"
                 img={project5}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
                 link="/"
-                github="/"
+                github="https://github.com/spriveen/Online-Courses-Website-"
                 type="Featured Project"
               />
             </div>
@@ -170,7 +170,7 @@ local currency."
            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
          local currency."
                 link="/"
-                github="/"
+                github="https://github.com/spriveen/Doctor-Appointment"
                 type="Featured Project"
               />
             </div>
@@ -198,7 +198,7 @@ local currency."
            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
          local currency."
                 link="/"
-                github="/"
+                github="https://github.com/spriveen/-Digital-news-app"
                 type="Featured Project"
               />
             </div>
