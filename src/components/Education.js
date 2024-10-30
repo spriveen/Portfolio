@@ -59,6 +59,13 @@ const Education = () => {
             info="Focused on Computer Software Engineering."
           />
           <Details
+            type="Certificate Program in Coding Fundamentals"
+            time="2020-2021"
+            place="NSBM Green University"
+            info="Introduction to Programming , Data Structures and Algorithms , Object Oriented Programming."
+          />
+
+          <Details
             type="G.C.E. Advanced Level"
             time="2006-2020"
             place="Sri Devananda College, Ambalangoda"
