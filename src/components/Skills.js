@@ -1,62 +1,38 @@
-import React from 'react'
-import { motion } from "framer-motion"
+import React from 'react';
+import { motion } from "framer-motion";
 
-const Skill = ({ name, x, y }) => {
-    return(
-        <motion.div 
-        className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
-        py-3 px-6 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light
-        lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent
-        xs:text-dark xs:dark:text-light xs:font-bold
-        '
-        whileHover={{ scale: 1.05 }}
-        initial={{x:0, y:0}}
-        whileInView={{x:x, y:y, transition:{duration:1.5}}}
-        viewport={{once: true}}
-      >
-        {name}
-    </motion.div>
-    )
-
-}
+const Skill = ({ name }) => {
+    return (
+        <motion.div
+            className='flex items-center justify-center rounded-full font-semibold bg-white text-black
+                       py-3 px-6 shadow-lg cursor-pointer hover:shadow-2xl transition-all duration-300
+                       lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:py-1 xs:px-2 xs:text-xs'
+            whileHover={{ scale: 1.1, rotate: 10 }}
+        >
+            {name}
+        </motion.div>
+    );
+};
 
 const Skills = () => {
     return (
-        <div>
-            <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32'>Skills</h2>
-            <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circulrLight dark:bg-circulrDark
-            lg:h-[80vh] sm:h[60vh] xs:h-[50vh]
-            lg:bg-circulrLightLg lg:dark:bg-circulrDarkLg
-            md:bg-circulrLightMd md:dark:bg-circulrDarkMd
-            sm:bg-circulrLightSm sm:dark:bg-circulrDarkSm
-            
-            '>
-                <motion.div 
-                    className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
-                    p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2
-                    
-                    '
-                    whileHover={{ scale: 1.05 }}
-                >
-                    Web
-                </motion.div>
-                <Skill name="HTML" x="-22vw" y="2vw"/>
-                <Skill name="CSS" x="-5vw" y=" -10vw"/>
-                <Skill name="Javascript" x="20vw" y="6vw"/>
-                <Skill name="ReactJs" x="0vw" y="12vw"/>
-                <Skill name="NextJs" x="-20vw" y="-15vw"/>
-                <Skill name="Gatsby" x="15vw" y="-12vw"/>
-                <Skill name="Web Design" x="32vw" y="-5vw"/>
-                <Skill name="Figma" x="0vw" y=" -20vw"/>
-                <Skill name="Firebase" x="-25vw" y=" 18vw"/>
-                <Skill name="Tailwind CSS" x="18vw" y="-18vw"/>
-
+        <div className="relative flex flex-col items-center justify-center min-h-screen bg-gradient-to-br overflow-hidden">
+            <h2 className='font-bold text-8xl text-center text-black mb-16 md:text-6xl md:mt-16'>Skills</h2>
+            <div className='grid grid-cols-2 gap-8 p-8 bg-[#262626] rounded-lg shadow-2xl shadow-black
+                            lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-[80vw] lg:w-[70vw] md:w-[60vw]'>
+                <Skill name="HTML" />
+                <Skill name="CSS" />
+                <Skill name="JavaScript" />
+                <Skill name="ReactJs" />
+                <Skill name="NextJs" />
+                <Skill name="Node JS" />
+                <Skill name="Web Design" />
+                <Skill name="Figma" />
+                <Skill name="Firebase" />
+                <Skill name="Tailwind CSS" />
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Skills
-
-
-
+export default Skills;
