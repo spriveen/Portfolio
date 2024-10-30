@@ -7,9 +7,9 @@ import Link from "next/link";
 import articles1 from "../../public/images/articles/pagination component in reactjs.jpg";
 import articles2 from "../../public/images/articles/create loading screen in react js.jpg";
 import { motion, useMotionValue } from "framer-motion";
-import articles3 from "../../public/images/articles/create modal component in react using react portals.png";
-import articles4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
-import articles5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import articles3 from "../../public/images/articles/1.png";
+import articles4 from "../../public/images/articles/2.png";
+import articles5 from "../../public/images/articles/3.png";
 
 const FramerImage = motion(Image);
 
@@ -183,12 +183,7 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
                link="https://www.linkedin.com/pulse/unleashing-power-node-js-transforming-web-development-riveen-peanuka-7etzc/?trackingId=FUdgfDY6QK6nTRSU%2BuYEJw%3D%3D"
                img={articles3}
                />
-               <Article
-               title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-               date="March 22 2023"
-               link="/"
-               img={articles3}
-               /> 
+              
           </ul>
         </Layout>
       </main>

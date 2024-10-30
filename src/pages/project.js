@@ -111,19 +111,24 @@ const project = () => {
                 type="Featured Project"
               />
             </div>
-            <div className='col-span-6 sm:col-span-12'>
-              <Project
+            </div>
+            <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
+            <div className='col-span-12'>
+              <FeaturedProject
 
                 title="Cab Hub"
                 img={project3}
-                summary="Cab Hub is a sleek, responsive cab service website built with Next.js, Tailwind CSS, and TypeScript. It offers a smooth, user-friendly interface for quick bookings and reliable transport options ensuring seamless navigation and efficiency"
+                summary="Cab Hub is a modern, intuitive platform built with Next.js, TSX, and Tailwind CSS, connecting riders and drivers effortlessly. 
+                It provides a sleek interface for seamless ride bookings and real-time tracking features"
                 link="/"
                 github="https://github.com/spriveen/car-booking"
                 type="Featured Project"
               />
             </div>
-            <div className='col-span-6 sm:col-span-12'>
-              <Project
+           </div>
+           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
+            <div className='col-span-12'>
+              <FeaturedProject
 
                 title="Burger Shop"
                 img={project2}
@@ -134,75 +139,81 @@ const project = () => {
                 type="Featured Project"
               />
             </div>
-
-            <div className='col-span-6 sm:col-span-12'>
+            </div>
+            <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
+            <div className='col-span-12'>
               <FeaturedProject
 
                 title="Fashion Web Site"
                 img={project8}
-                summary="I created a vibrant fashion website using HTML, CSS, and JavaScript, showcasing trendy outfits
-                 and accessories. The site features an interactive gallery, user-friendly navigation and responsive 
-                design for an enhanced shopping experience"
+                summary="I created a stylish fashion website using HTML, CSS and JavaScript. The site features an elegant design, allowing users to browse the latest trends
+                 view collections and shop effortlessly for their favorite styles."
                 link="/"
                 github="https://github.com/spriveen/Fashion-Web-Site"
                 type="Featured Project"
               />
             </div>
-            <div className='col-span-6 sm:col-span-12'>
-              <Project
+            </div>
+            <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
+            <div className='col-span-12'>
+              <FeaturedProject
 
                 title="Online Courses Website"
                 img={project5}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+                summary="I developed an online course website using HTML, CSS, and JavaScript. The platform provides an interactive learning experience
+                 allowing users to browse coursesaccess resources and engage with
+                  instructors seamlessly and effectively"
                 link="/"
                 github="https://github.com/spriveen/Online-Courses-Website-"
                 type="Featured Project"
               />
             </div>
-            <div className='col-span-6 sm:col-span-12'>
-              <Project
+            </div>
+            <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
+            <div className='col-span-12'>
+              <FeaturedProject
 
                 title="Online E-Channeling System"
                 img={project6}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-         local currency."
+                summary="E-Channeling System is a sophisticated online platform developed using React.js, Node.js, and MongoDB. This system offers a seamless and intuitive user experience for
+                 booking appointments. Users can easily search for healthcare providers, schedule consultations and manage their appointments efficiently. The responsive design ensures accessibility across devices
+                  while secure data management enhances user privacy. This solution streamlines the healthcare process
+                making it convenient for users to access medical services and connect with professionals effortlessly"
                 link="/"
                 github="https://github.com/spriveen/Doctor-Appointment"
                 type="Featured Project"
               />
             </div>
-
-            <div className='col-span-6 sm:col-span-12'>
-              <Project
+             </div>
+             <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
+            <div className='col-span-12'>
+              <FeaturedProject
 
                 title="Coffee Shop"
                 img={project7}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-         local currency."
+                summary="Online Coffee Shop System is an innovative e-commerce platform developed using React.js. 
+                This dynamic website provides a visually appealing and user-friendly interface, allowing customers to effortlessly browse a diverse selection of coffee products, place orders and manage their accounts.
+                 With features like secure payment processing and real-time inventory updates, the system ensures a seamless shopping experience. The responsive design optimizes usability across devices, making it easy for coffee lovers to indulge in their favorite brews anytime, anywhere. This system elevates the online coffee shopping experience connecting customers with premium coffee offerings"
                 link="/"
-                github="/"
+                github="https://github.com/spriveen/GYM"
                 type="Featured Project"
               />
             </div>
-            
-            <div className='col-span-6 sm:col-span-12'>
-              <Project
+           </div>
+           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
+            <div className='col-span-12'>
+              <FeaturedProject
 
                 title="Digital News"
                 img={project9}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-         local currency."
+                summary="Digital News Platform is a modern website built with Next.js, JSX, Tailwind CSS, Bootstrap and MongoDB. It delivers real-time news updates
+                 engaging articles and a responsive design, ensuring a seamless user experience across devices"
                 link="/"
                 github="https://github.com/spriveen/-Digital-news-app"
                 type="Featured Project"
               />
             </div>
-          </div>
+            </div>
         </Layout>
       </main>
     </>
