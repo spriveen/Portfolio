@@ -18,7 +18,7 @@ const Skill = ({ name }) => {
 const Skills = () => {
     return (
         <div className="relative flex flex-col items-center justify-center min-h-screen bg-gradient-to-br overflow-hidden">
-            <h2 className='font-bold text-8xl text-center text-white dark:text-black mb-16 md:text-6xl md:mt-16'>
+            <h2 className='font-bold text-8xl text-center text-black dark:text-white  mb-16 md:text-6xl md:mt-16'>
                 Skills
             </h2>
             <motion.div 
