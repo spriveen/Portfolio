@@ -13,6 +13,7 @@ import project6 from '../../public/images/projects/6.jpg'
 import project7 from '../../public/images/projects/5.jpg'
 import project8 from '../../public/images/projects/2.jpg'
 import project9 from '../../public/images/projects/7.jpg'
+import project10 from '../../public/images/projects/8.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -194,6 +195,19 @@ const project = () => {
                 summary="Digital News Platform is a modern website built with Next.js, JSX, Tailwind CSS, Bootstrap and MongoDB. 
                 It delivers real-time news updatesengaging articles and a responsive design, ensuring a 
                 seamless user experience across devices"
+                link="/"
+                github="https://github.com/spriveen/-Digital-news-app"
+                type="Featured Project"
+              />
+            </div>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                title="Agency Website"
+                img={project10}
+                summary="Agency Website is a modern, responsive platform developed using Next.js, JSX, Tailwind CSS, Bootstrap
+                 and MongoDB. This website is designed to showcase agency services with an engaging, user-friendly interface, optimized for seamless interaction across all devices. The project includes clean layouts, intuitive navigation, and real-time content updates, ensuring clients
+                 have an exceptional browsing experience and easy access to all the information they need"
                 link="/"
                 github="https://github.com/spriveen/-Digital-news-app"
                 type="Featured Project"
