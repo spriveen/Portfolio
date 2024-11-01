@@ -209,7 +209,7 @@ const project = () => {
                  and MongoDB. This website is designed to showcase agency services with an engaging, user-friendly interface, optimized for seamless interaction across all devices. The project includes clean layouts, intuitive navigation, and real-time content updates, ensuring clients
                  have an exceptional browsing experience and easy access to all the information they need"
                 link="/"
-                github="https://github.com/spriveen/-Digital-news-app"
+                github="https://github.com/spriveen/agency-web"
                 type="Featured Project"
               />
             </div>
