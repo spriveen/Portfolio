@@ -21,6 +21,7 @@ import project14 from '../../public/images/projects/12.jpg'
 import project15 from '../../public/images/projects/13.jpg'
 import project16 from '../../public/images/projects/14.jpg'
 import project17 from '../../public/images/projects/15.jpg'
+import project18 from '../../public/images/projects/16.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -295,6 +296,17 @@ const project = () => {
                 summary="Ceylon Escapes is a hotel website built with HTML, CSS, and JavaScript, offering users a smooth experience to explore rooms, view amenities, and make bookings easily through a clean and responsive design."
                 link="/"
                 github="https://github.com/spriveen/Hotel-Booking-Website"
+                type="Featured Project"
+              />
+            </div>
+             
+             <div className='col-span-12'>
+              <FeaturedProject
+                title="Deepseek"
+                img={project18}
+                summary="DeepSeeker Clone is a job search platform built with Next.js, Tailwind CSS, MongoDB, and REST API. It replicates core features of the original site, enabling users to search, filter, and view job listings in a fast and responsive UI"
+                link="/"
+                github="https://github.com/spriveen/DeepSeek-Clone"
                 type="Featured Project"
               />
             </div>
