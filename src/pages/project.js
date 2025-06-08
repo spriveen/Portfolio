@@ -17,6 +17,7 @@ import project10 from '../../public/images/projects/8.jpg'
 import project11 from '../../public/images/projects/9.jpg'
 import project12 from '../../public/images/projects/10.jpg'
 import project13 from '../../public/images/projects/11.jpg'
+import project14 from '../../public/images/projects/12.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -245,6 +246,17 @@ const project = () => {
                 title="Liquar Shop"
                 img={project13}
                 summary="Liquor Shop is an online platform for browsing and purchasing a wide variety of alcoholic beverages, offering a seamless shopping experience with easy navigation and secure checkout."
+                link="/"
+                github="https://github.com/spriveen/Liquor-Shop"
+                type="Featured Project"
+              />
+            </div>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                title="MotorBike Rental"
+                img={project14}
+                summary="MotorBike Rental is a responsive website built with HTML, CSS, and JavaScript that allows users to explore, book, and rent motorbikes easily. It features a clean design and smooth user experience."
                 link="/"
                 github="https://github.com/spriveen/Liquor-Shop"
                 type="Featured Project"
