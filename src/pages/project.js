@@ -22,6 +22,7 @@ import project15 from '../../public/images/projects/13.jpg'
 import project16 from '../../public/images/projects/14.jpg'
 import project17 from '../../public/images/projects/15.jpg'
 import project18 from '../../public/images/projects/16.jpg'
+import project19 from '../../public/images/projects/17.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -305,6 +306,17 @@ const project = () => {
                 title="Deepseek"
                 img={project18}
                 summary="DeepSeeker Clone is a job search platform built with Next.js, Tailwind CSS, MongoDB, and REST API. It replicates core features of the original site, enabling users to search, filter, and view job listings in a fast and responsive UI"
+                link="/"
+                github="https://github.com/spriveen/DeepSeek-Clone"
+                type="Featured Project"
+              />
+            </div>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                title="Car Rental"
+                img={project19}
+                summary="Car Rental is a responsive website developed using HTML, CSS, and JavaScript, allowing users to browse available cars, view rental details, and make bookings with an intuitive and clean interface."
                 link="/"
                 github="https://github.com/spriveen/DeepSeek-Clone"
                 type="Featured Project"
