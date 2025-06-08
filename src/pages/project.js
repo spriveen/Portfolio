@@ -19,6 +19,7 @@ import project12 from '../../public/images/projects/10.jpg'
 import project13 from '../../public/images/projects/11.jpg'
 import project14 from '../../public/images/projects/12.jpg'
 import project15 from '../../public/images/projects/13.jpg'
+import project16 from '../../public/images/projects/14.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -271,6 +272,17 @@ const project = () => {
                 summary="Edusity is a modern campus website built with React.js, Framer Motion, and Tailwind CSS. It offers a dynamic and interactive platform for students to explore academic resources, events, and campus updates."
                 link="/"
                 github="https://github.com/spriveen/Edustry"
+                type="Featured Project"
+              />
+            </div>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                title="Book Store"
+                img={project16}
+                summary="Book Store is a responsive website developed using HTML, CSS, and JavaScript, allowing users to browse, search, and purchase books online with a clean and user-friendly interface"
+                link="/"
+                github="https://github.com/spriveen/Book"
                 type="Featured Project"
               />
             </div>
