@@ -20,6 +20,7 @@ import project13 from '../../public/images/projects/11.jpg'
 import project14 from '../../public/images/projects/12.jpg'
 import project15 from '../../public/images/projects/13.jpg'
 import project16 from '../../public/images/projects/14.jpg'
+import project17 from '../../public/images/projects/15.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -283,6 +284,17 @@ const project = () => {
                 summary="Book Store is a responsive website developed using HTML, CSS, and JavaScript, allowing users to browse, search, and purchase books online with a clean and user-friendly interface"
                 link="/"
                 github="https://github.com/spriveen/Book"
+                type="Featured Project"
+              />
+            </div>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                title="Ceylon Escapes"
+                img={project17}
+                summary="Ceylon Escapes is a hotel website built with HTML, CSS, and JavaScript, offering users a smooth experience to explore rooms, view amenities, and make bookings easily through a clean and responsive design."
+                link="/"
+                github="https://github.com/spriveen/Hotel-Booking-Website"
                 type="Featured Project"
               />
             </div>
