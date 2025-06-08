@@ -18,6 +18,7 @@ import project11 from '../../public/images/projects/9.jpg'
 import project12 from '../../public/images/projects/10.jpg'
 import project13 from '../../public/images/projects/11.jpg'
 import project14 from '../../public/images/projects/12.jpg'
+import project15 from '../../public/images/projects/13.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -258,7 +259,18 @@ const project = () => {
                 img={project14}
                 summary="MotorBike Rental is a responsive website built with HTML, CSS, and JavaScript that allows users to explore, book, and rent motorbikes easily. It features a clean design and smooth user experience."
                 link="/"
-                github="https://github.com/spriveen/Liquor-Shop"
+                github="https://github.com/spriveen/Motor-Bike-Web-site"
+                type="Featured Project"
+              />
+            </div>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                title="Edusity"
+                img={project15}
+                summary="Edusity is a modern campus website built with React.js, Framer Motion, and Tailwind CSS. It offers a dynamic and interactive platform for students to explore academic resources, events, and campus updates."
+                link="/"
+                github="https://github.com/spriveen/Edustry"
                 type="Featured Project"
               />
             </div>
