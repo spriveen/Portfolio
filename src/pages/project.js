@@ -24,6 +24,7 @@ import project17 from '../../public/images/projects/15.jpg'
 import project18 from '../../public/images/projects/16.jpg'
 import project19 from '../../public/images/projects/17.jpg'
 import project20 from '../../public/images/projects/18.jpg'
+import project21 from '../../public/images/projects/19.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -334,6 +335,18 @@ const project = () => {
                 type="Featured Project"
               />
             </div>
+
+             <div className='col-span-12'>
+              <FeaturedProject
+                title="E-Shop"
+                img={project21}
+                summary="E-Shop is a modern e-commerce website built with React.js and Tailwind CSS. It showcases products like handfrees, laptops, and VR boxes, offering a smooth shopping experience with responsive design and user-friendly navigation"
+                link="/"
+                github="https://github.com/spriveen/Eshop"
+                type="Featured Project"
+              />
+            </div>
+
 
             
 
