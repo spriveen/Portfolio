@@ -23,6 +23,7 @@ import project16 from '../../public/images/projects/14.jpg'
 import project17 from '../../public/images/projects/15.jpg'
 import project18 from '../../public/images/projects/16.jpg'
 import project19 from '../../public/images/projects/17.jpg'
+import project20 from '../../public/images/projects/18.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -318,7 +319,18 @@ const project = () => {
                 img={project19}
                 summary="Car Rental is a responsive website developed using HTML, CSS, and JavaScript, allowing users to browse available cars, view rental details, and make bookings with an intuitive and clean interface."
                 link="/"
-                github="https://github.com/spriveen/DeepSeek-Clone"
+                github="https://github.com/spriveen/Car-Rental-Website"
+                type="Featured Project"
+              />
+            </div>
+
+             <div className='col-span-12'>
+              <FeaturedProject
+                title="Blogger"
+                img={project20}
+                summary="Blogger is a responsive website built with HTML, CSS, and JavaScript, focused on travel, food and nature. It features engaging blog posts, beautiful layouts, and an easy-to-navigate interface for readers to explore diverse content."
+                link="/"
+                github="https://github.com/spriveen/-Blooger-Website"
                 type="Featured Project"
               />
             </div>
