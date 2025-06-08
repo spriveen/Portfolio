@@ -15,6 +15,7 @@ import project8 from '../../public/images/projects/2.jpg'
 import project9 from '../../public/images/projects/7.jpg'
 import project10 from '../../public/images/projects/8.jpg'
 import project11 from '../../public/images/projects/9.jpg'
+import project12 from '../../public/images/projects/10.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -223,6 +224,17 @@ const project = () => {
                 interface to browse, filter, and apply for jobs across various industries."
                 link="/"
                 github="https://github.com/spriveen/Job-Posting"
+                type="Featured Project"
+              />
+            </div>
+
+             <div className='col-span-12'>
+              <FeaturedProject
+                title="The Coding Journey"
+                img={project12}
+                summary="The Coding Journey is a personal blog website that showcases my journey as a developer."
+                link="/"
+                github="https://github.com/spriveen/-E-learning-Education"
                 type="Featured Project"
               />
             </div>
