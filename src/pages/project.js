@@ -25,6 +25,7 @@ import project18 from '../../public/images/projects/16.jpg'
 import project19 from '../../public/images/projects/17.jpg'
 import project20 from '../../public/images/projects/18.jpg'
 import project21 from '../../public/images/projects/19.jpg'
+import project22 from '../../public/images/projects/20.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -346,6 +347,18 @@ const project = () => {
                 type="Featured Project"
               />
             </div>
+
+             <div className='col-span-12'>
+              <FeaturedProject
+                title="Fruit Store"
+                img={project22}
+                summary="Fruit Store is a fresh and vibrant online shop built with React.js, Tailwind CSS, and Framer Motion. It offers a smooth, animated user experience for browsing and buying fresh fruits with an attractive, responsive design."
+                link="/"
+                github="https://github.com/spriveen/Fruit-Selling"
+                type="Featured Project"
+              />
+            </div>
+
 
 
             
