@@ -14,6 +14,7 @@ import project7 from '../../public/images/projects/5.jpg'
 import project8 from '../../public/images/projects/2.jpg'
 import project9 from '../../public/images/projects/7.jpg'
 import project10 from '../../public/images/projects/8.jpg'
+import project11 from '../../public/images/projects/9.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -213,6 +214,20 @@ const project = () => {
                 type="Featured Project"
               />
             </div>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                title="CareerPulse"
+                img={project11}
+                summary="CareerPulse is a job vacancy search website that helps users find the latest job openings quickly and easily. It offers a user-friendly 
+                interface to browse, filter, and apply for jobs across various industries."
+                link="/"
+                github="https://github.com/spriveen/Job-Posting"
+                type="Featured Project"
+              />
+            </div>
+
+            
 
             {/* Add additional FeaturedProject components here if needed */}
           </div>
