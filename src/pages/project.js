@@ -26,6 +26,7 @@ import project19 from '../../public/images/projects/17.jpg'
 import project20 from '../../public/images/projects/18.jpg'
 import project21 from '../../public/images/projects/19.jpg'
 import project22 from '../../public/images/projects/20.jpg'
+import project23 from '../../public/images/projects/21.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -357,7 +358,18 @@ const project = () => {
                 github="https://github.com/spriveen/Fruit-Selling"
                 type="Featured Project"
               />
-            </div>
+              </div>
+
+              <div className='col-span-12'>
+              <FeaturedProject
+                title="Expense Tracker"
+                img={project23}
+                summary="Developed an Expense Tracker application using React.js to manage and visualize personal spending efficiently."
+                link="/"
+                github="https://github.com/spriveen/Expense-Tracker"
+                type="Featured Project"
+              />
+              </div>
 
 
 
