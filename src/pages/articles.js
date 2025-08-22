@@ -191,7 +191,7 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
                title="Mastering Modern Software Development: Cloud Platforms, Containerization & CI/CD Tools"
                date="August 22 2025"
                link="https://www.linkedin.com/pulse/mastering-modern-software-development-cloud-platforms-riveen-peanuka-shuxc/?trackingId=uiShoGOT8M7bTxztoJh93A%3D%3D"
-               img={articles7}
+               img={articles6}
                />
               
           </ul>
