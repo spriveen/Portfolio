@@ -404,7 +404,7 @@ const project = () => {
                 img={project26}
                 summary="Developed a project using Chart.js to render dynamic graphs by providing custom input values. Implemented responsive design using CSS Flexbox, Grid, CSS Variables, and Media Queries with a mobile-first approach. Added CSS transitions for smooth, visually appealing effects."
                 link="/"
-                github="https://github.com/spriveen/Sales-Management-Dashboard"
+                github="https://github.com/spriveen/Sales-Managment-Dashboard"
                 type="Featured Project"
               />
               </div>
