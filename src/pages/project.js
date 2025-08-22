@@ -30,6 +30,8 @@ import project23 from '../../public/images/projects/21.jpg'
 import project24 from '../../public/images/projects/22.jpg'
 import project25 from '../../public/images/projects/23.jpg'
 import project26 from '../../public/images/projects/24.jpg'
+import project27 from '../../public/images/projects/25.jpg'
+import project28 from '../../public/images/projects/26.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -405,6 +407,28 @@ const project = () => {
                 summary="Developed a project using Chart.js to render dynamic graphs by providing custom input values. Implemented responsive design using CSS Flexbox, Grid, CSS Variables, and Media Queries with a mobile-first approach. Added CSS transitions for smooth, visually appealing effects."
                 link="/"
                 github="https://github.com/spriveen/Sales-Managment-Dashboard"
+                type="Featured Project"
+              />
+              </div>
+
+               <div className='col-span-12'>
+              <FeaturedProject
+                title="Skywings"
+                img={project27}
+                summary="Built a SkyWings airline website using HTML, CSS, and JavaScript. Focused on creating a clean, responsive layout with smooth interactions and an engaging UI/UX design for users."
+                link="/"
+                github="https://github.com/spriveen/Skywings"
+                type="Featured Project"
+              />
+              </div>
+
+                <div className='col-span-12'>
+              <FeaturedProject
+                title="Pizza Shop"
+                img={project28}
+                summary="Developed a Pizza Shop website using Next.js and Tailwind CSS, featuring a modern, responsive design with smooth user interactions. Focused on UI/UX design to provide an engaging experience for customers."
+                link="/"
+                github="https://github.com/spriveen/pizza-shop"
                 type="Featured Project"
               />
               </div>
