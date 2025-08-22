@@ -28,6 +28,7 @@ import project21 from '../../public/images/projects/19.jpg'
 import project22 from '../../public/images/projects/20.jpg'
 import project23 from '../../public/images/projects/21.jpg'
 import project24 from '../../public/images/projects/22.jpg'
+import project25 from '../../public/images/projects/23.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -372,7 +373,7 @@ const project = () => {
               />
               </div>
             
-            {/*  */}
+            
               <div className='col-span-12'>
               <FeaturedProject
                 title="RideFlex"
@@ -383,6 +384,20 @@ const project = () => {
                 type="Featured Project"
               />
               </div>
+                 
+                 
+               <div className='col-span-12'>
+              <FeaturedProject
+                title="Igloo"
+                img={project25}
+                summary="Designed a visually appealing Ice Cream website with smooth animations using HTML, CSS, and JavaScript. Focused on creating an engaging UI/UX experience to showcase products creatively."
+                link="/"
+                github="https://github.com/spriveen/Ice-Cream"
+                type="Featured Project"
+              />
+              </div>
+
+
 
 
 
