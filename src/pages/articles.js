@@ -10,6 +10,9 @@ import { motion, useMotionValue } from "framer-motion";
 import articles3 from "../../public/images/articles/1.png";
 import articles4 from "../../public/images/articles/2.png";
 import articles5 from "../../public/images/articles/3.png";
+import articles6 from "../../public/images/articles/7.png";
+
+
 
 const FramerImage = motion(Image);
 
@@ -182,6 +185,13 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
                date="March 22 2023"
                link="https://www.linkedin.com/pulse/unleashing-power-node-js-transforming-web-development-riveen-peanuka-7etzc/?trackingId=FUdgfDY6QK6nTRSU%2BuYEJw%3D%3D"
                img={articles3}
+               />
+
+                <Article
+               title="Mastering Modern Software Development: Cloud Platforms, Containerization & CI/CD Tools"
+               date="August 22 2025"
+               link="https://www.linkedin.com/pulse/mastering-modern-software-development-cloud-platforms-riveen-peanuka-shuxc/?trackingId=uiShoGOT8M7bTxztoJh93A%3D%3D"
+               img={articles7}
                />
               
           </ul>
