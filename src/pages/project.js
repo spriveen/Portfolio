@@ -32,6 +32,7 @@ import project25 from '../../public/images/projects/23.jpg'
 import project26 from '../../public/images/projects/24.jpg'
 import project27 from '../../public/images/projects/25.jpg'
 import project28 from '../../public/images/projects/26.jpg'
+import project29 from '../../public/images/projects/27.jpg'
 
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
@@ -422,7 +423,7 @@ const project = () => {
               />
               </div>
 
-                <div className='col-span-12'>
+              <div className='col-span-12'>
               <FeaturedProject
                 title="Pizza Shop"
                 img={project28}
@@ -433,6 +434,16 @@ const project = () => {
               />
               </div>
 
+              <div className='col-span-12'>
+              <FeaturedProject
+                title="Pizza Shop"
+                img={project29}
+                summary="Full-stack Car Rental Website built with the MERN stack, featuring JWT authentication, car listings, booking management, and an admin dashboard. Includes ImageKit media optimization and a scalable, production-ready architecture"
+                link="/"
+                github="https://github.com/spriveen/pizza-shop"
+                type="Featured Project"
+              />
+              </div>
 
 
 
