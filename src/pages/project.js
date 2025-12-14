@@ -440,7 +440,7 @@ const project = () => {
                 img={project29}
                 summary="Full-stack Car Rental Website built with the MERN stack, featuring JWT authentication, car listings, booking management, and an admin dashboard. Includes ImageKit media optimization and a scalable, production-ready architecture"
                 link="/"
-                github="https://github.com/spriveen/pizza-shop"
+                github="https://github.com/spriveen/-Full-Stack-Car-Rental-Booking-App-"
                 type="Featured Project"
               />
               </div>
