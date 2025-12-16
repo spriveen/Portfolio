@@ -491,7 +491,7 @@ const project = () => {
                <div className='col-span-12'>
               <FeaturedProject
                 title="Learning Management System"
-                img={project31}
+                img={project33}
                 summary="A complete LMS website built using React JS, where educators can upload courses and students can enroll and watch lessons online. The platform uses Clerk for secure authentication, featuring ready-to-use Sign-In, Sign-Up, and profile UI components."
                 link="/"
                 github= "https://github.com/spriveen/LMS"
