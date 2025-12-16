@@ -436,7 +436,7 @@ const project = () => {
 
               <div className='col-span-12'>
               <FeaturedProject
-                title="Pizza Shop"
+                title="Full-stack Car Rental"
                 img={project29}
                 summary="Full-stack Car Rental Website built with the MERN stack, featuring JWT authentication, car listings, booking management, and an admin dashboard. Includes ImageKit media optimization and a scalable, production-ready architecture"
                 link="/"
