@@ -36,7 +36,8 @@ import project29 from '../../public/images/projects/27.jpg'
 import project30 from '../../public/images/projects/28.jpg'
 import project31 from '../../public/images/projects/29.jpg'
 import project32 from '../../public/images/projects/30.jpg'
-import project33 from '../../public/images/projects/31.jpg'
+
+
 
 
 
@@ -479,7 +480,7 @@ const project = () => {
               <div className='col-span-12'>
               <FeaturedProject
                 title="Clothify"
-                img={project30}
+                img={project32}
                 summary="A modern, fully responsive ecommerce website built using ReactJS and Tailwind CSS, covering complete UI development and deployment. This project demonstrates building, styling, and deploying a real-world ecommerce application."
                 link="/"
                 github= "https://github.com/spriveen/Clothify"
