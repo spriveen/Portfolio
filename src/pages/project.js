@@ -36,6 +36,7 @@ import project29 from '../../public/images/projects/27.jpg'
 import project30 from '../../public/images/projects/28.jpg'
 import project31 from '../../public/images/projects/29.jpg'
 import project32 from '../../public/images/projects/30.jpg'
+import project33 from '../../public/images/projects/31.jpg'
 
 
 
@@ -475,7 +476,7 @@ const project = () => {
               />
               </div>
 
-                <div className='col-span-12'>
+              <div className='col-span-12'>
               <FeaturedProject
                 title="Clothify"
                 img={project30}
@@ -485,6 +486,18 @@ const project = () => {
                 type="Featured Project"
               />
               </div>
+
+               <div className='col-span-12'>
+              <FeaturedProject
+                title="Learning Management System"
+                img={project31}
+                summary="A complete LMS website built using React JS, where educators can upload courses and students can enroll and watch lessons online. The platform uses Clerk for secure authentication, featuring ready-to-use Sign-In, Sign-Up, and profile UI components."
+                link="/"
+                github= "https://github.com/spriveen/LMS"
+                type="Featured Project"
+              />
+              </div>
+
 
 
 
