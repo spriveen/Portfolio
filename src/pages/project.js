@@ -35,6 +35,7 @@ import project28 from '../../public/images/projects/26.jpg'
 import project29 from '../../public/images/projects/27.jpg'
 import project30 from '../../public/images/projects/28.jpg'
 import project31 from '../../public/images/projects/29.jpg'
+import project32 from '../../public/images/projects/30.jpg'
 
 
 
@@ -470,6 +471,17 @@ const project = () => {
                 summary="A smart resume screening web app built with React, React Router, and Puter.js that uses AI to match candidate resumes with job requirements. Features include resume uploads, job management, and a clean, modern UI for efficient hiring workflows."
                 link="/"
                 github= "https://github.com/spriveen/AI-powered-Resume-Analyzer"
+                type="Featured Project"
+              />
+              </div>
+
+                <div className='col-span-12'>
+              <FeaturedProject
+                title="Clothify"
+                img={project30}
+                summary="A modern, fully responsive ecommerce website built using ReactJS and Tailwind CSS, covering complete UI development and deployment. This project demonstrates building, styling, and deploying a real-world ecommerce application."
+                link="/"
+                github= "https://github.com/spriveen/Clothify"
                 type="Featured Project"
               />
               </div>
