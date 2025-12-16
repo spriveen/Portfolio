@@ -42,6 +42,7 @@ import project32 from '../../public/images/projects/30.jpg'
 
 
 
+
 import { motion } from 'framer-motion'
 import AnimatedText from '@/components/AnimatedText'
 
@@ -487,7 +488,7 @@ const project = () => {
                 type="Featured Project"
               />
               </div>
-
+{/* 
                <div className='col-span-12'>
               <FeaturedProject
                 title="Learning Management System"
@@ -497,7 +498,7 @@ const project = () => {
                 github= "https://github.com/spriveen/LMS"
                 type="Featured Project"
               />
-              </div>
+              </div> */}
 
 
 
