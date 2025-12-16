@@ -452,11 +452,11 @@ const project = () => {
 
               <div className='col-span-12'>
               <FeaturedProject
-                title="Cricbuzz"
+                title="Live Cricket Score App"
                 img={project30}
-                summary="Full-stack Car Rental Website built with the MERN stack, featuring JWT authentication, car listings, booking management, and an admin dashboard. Includes ImageKit media optimization and a scalable, production-ready architecture"
+                summary="A real-time cricket score tracker built with React.js and Rapid API, featuring live match updates, player stats, and schedules in a clean, responsive Tailwind CSS UI. This project strengthened my skills in API integration and React state management.A real-time cricket score tracker built with React.js and Rapid API, featuring live match updates, player stats, and schedules in a clean, responsive Tailwind CSS UI. This project strengthened my skills in API integration and React state management."
                 link="/"
-                github="https://github.com/spriveen/-Full-Stack-Car-Rental-Booking-App-"
+                github= "https://github.com/spriveen/Live-Cricket-Score-App"
                 type="Featured Project"
               />
               </div>
