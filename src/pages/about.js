@@ -49,20 +49,15 @@ const About = () => {
               Life Story
               </h2>
               <p className="font-medium">
-                Hi, I m Riveen Peanuka,  I’m a full-stack developer with 4 years of experience
-                 skilled in Next.js, React.js, Tailwind CSS, TypeScript, JavaScript, Node.js, Prisma, PostgreSQL, 
-                 MongoDB, and HTML/CSS. I’m passionate about building seamless and efficient digital solutions blending 
-                 modern tech stacks with user-centered design to create engaging and functional web applications.
-                 I look forward to bringing my skills and passion to your next project.
+                Hi, I’m Riveen Peanuka, a Full-Stack Developer with over 1 year of professional experience. I specialize in Next.js, React.js, Tailwind CSS, TypeScript, JavaScript, and Node.js, with hands-on experience in Prisma, PostgreSQL, MongoDB, and HTML/CSS.
+
+I’m passionate about building seamless, efficient, and scalable digital solutions by combining modern technology stacks with user-centered design principles. I enjoy creating engaging, high-quality web applications and look forward to contributing my skills and passion to impactful projects.
               </p>
               <p className="font-medium">
-              I believe design goes beyond aesthetics it’s about solving problems and 
-              crafting intuitive, enjoyable user experiences.
+             I believe design goes beyond aesthetics; it’s about solving real problems and creating intuitive, meaningful user experiences that add value.
               </p>
               <p className="my-4 font-medium">
-              Whether I’m working on a website, mobile app, or any digital product, I bring a strong commitment
-              to design excellence and user-focused thinking to every project. I’m excited to apply my skills and
-              passion to your next project.
+              Whether working on websites, web applications, or digital products, I bring a strong commitment to quality, usability, and user-focused thinking. I’m motivated to apply my skills and passion to delivering impactful solutions.
               </p>
             </div>
 
